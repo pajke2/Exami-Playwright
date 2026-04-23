@@ -1,0 +1,84 @@
+- generic [ref=e6]:
+  - region "Notifications alt+T":
+    - list
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - button "Toggle menu" [active] [ref=e10]:
+          - img
+          - generic [ref=e11]: Toggle menu
+        - img [ref=e14] [cursor=pointer]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - switch [ref=e32]
+            - img [ref=e33]
+          - button "2" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: "2"
+          - button "R" [ref=e38] [cursor=pointer]:
+            - generic [ref=e40]: R
+    - main [ref=e41]:
+      - generic [ref=e317]:
+        - generic [ref=e318]:
+          - heading "Welcome back, Radivoje Pajic" [level=1] [ref=e319]
+          - paragraph [ref=e320]: Here's an overview of your learning progress.
+        - generic [ref=e321]:
+          - generic [ref=e322]:
+            - paragraph [ref=e324]: Total Practice Sessions
+            - generic [ref=e326]: "286"
+          - generic [ref=e327]:
+            - paragraph [ref=e329]: Total Quizzes
+            - generic [ref=e331]: "87"
+          - generic [ref=e332]:
+            - paragraph [ref=e334]:
+              - text: Latest Score
+              - paragraph [ref=e335]: Film - Film History
+            - generic [ref=e337]: 13%
+          - generic [ref=e338]:
+            - paragraph [ref=e340]: Current Streak
+            - generic [ref=e342]: 1 day
+        - generic [ref=e343]:
+          - generic [ref=e344]:
+            - generic [ref=e345]:
+              - heading "Achievements" [level=3] [ref=e346]
+              - paragraph [ref=e347]: Badges you can earn through your learning progress.
+            - generic [ref=e349]:
+              - img "Quiz Rookie" [ref=e351]
+              - img "Quiz Challenger" [ref=e353]
+              - img "Sharp Mind" [ref=e355]
+              - img "Quiz Warrior" [ref=e357]
+              - img "Mind Gladiator" [ref=e359]
+              - img "Quiz Champion" [ref=e361]
+              - img "Quiz Legend" [ref=e363]
+              - img "Quiz Grandmaster" [ref=e365]
+          - generic [ref=e366]:
+            - generic [ref=e367]:
+              - heading "Recent Activity" [level=3] [ref=e368]
+              - paragraph [ref=e369]: Your last 5 quiz attempts
+            - generic [ref=e371]:
+              - generic [ref=e372] [cursor=pointer]:
+                - generic [ref=e373]:
+                  - paragraph [ref=e374]: Film
+                  - paragraph [ref=e375]: Apr 19, 09:26 PM
+                - generic [ref=e377]: 13%
+              - generic [ref=e378] [cursor=pointer]:
+                - generic [ref=e379]:
+                  - paragraph [ref=e380]: Film
+                  - paragraph [ref=e381]: Apr 17, 03:24 PM
+                - generic [ref=e383]: 27%
+              - generic [ref=e384] [cursor=pointer]:
+                - generic [ref=e385]:
+                  - paragraph [ref=e386]: Film
+                  - paragraph [ref=e387]: Apr 17, 01:45 PM
+                - generic [ref=e389]: 53%
+              - generic [ref=e390] [cursor=pointer]:
+                - generic [ref=e391]:
+                  - paragraph [ref=e392]: Biology
+                  - paragraph [ref=e393]: Apr 17, 01:41 PM
+                - generic [ref=e395]: 0%
+              - generic [ref=e396] [cursor=pointer]:
+                - generic [ref=e397]:
+                  - paragraph [ref=e398]: Biology
+                  - paragraph [ref=e399]: Apr 17, 01:39 PM
+                - generic [ref=e401]: 0%

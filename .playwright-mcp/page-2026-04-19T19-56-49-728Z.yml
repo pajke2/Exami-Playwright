@@ -1,0 +1,259 @@
+- generic:
+  - generic:
+    - region "Notifications alt+T":
+      - list
+    - generic:
+      - banner:
+        - generic:
+          - button [expanded]:
+            - img
+            - generic: Toggle menu
+          - generic:
+            - generic:
+              - img
+          - generic:
+            - generic:
+              - img
+              - switch
+              - img
+            - generic:
+              - button:
+                - img
+                - generic: "2"
+            - button:
+              - generic:
+                - generic: R
+      - main:
+        - generic:
+          - generic:
+            - heading [level=1]: Profile
+            - paragraph: Manage your account settings
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: RP
+                  - button:
+                    - img
+                - generic:
+                  - heading [level=2]: Radivoje Pajic
+                  - paragraph: pajicr@hotmail.com
+                  - generic:
+                    - img
+                    - text: Member since March 18, 2026
+                  - generic:
+                    - generic:
+                      - img
+                      - text: No Plan
+          - generic:
+            - generic:
+              - heading [level=3]: Edit Profile
+              - paragraph: Update your personal information
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Full Name
+                  - generic:
+                    - img
+                    - textbox:
+                      - /placeholder: Your name
+                      - text: Radivoje Pajic
+                - generic:
+                  - generic: Email
+                  - generic:
+                    - generic:
+                      - img
+                      - textbox: pajicr@hotmail.com
+                    - button: Change Email
+                - generic:
+                  - generic: Username
+                  - generic:
+                    - img
+                    - textbox:
+                      - /placeholder: your_username
+                      - text: pajke12
+                - generic:
+                  - generic: Bio
+                  - textbox:
+                    - /placeholder: Tell us a little about yourself...
+                    - text: Test Pajke1
+                - generic:
+                  - generic: Timezone
+                  - combobox:
+                    - generic:
+                      - img
+                      - generic: Europe/Belgrade GMT+2
+                    - img
+                - generic:
+                  - generic: Language
+                  - combobox:
+                    - generic:
+                      - img
+                      - generic: English English
+                    - img
+                - generic:
+                  - button: Save changes
+          - generic:
+            - generic:
+              - heading [level=3]: Notifications
+              - paragraph: Choose which notifications you want to receive
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Inactivity reminders
+                  - paragraph: Get reminded when you've been inactive for a while
+                - switch [checked]
+              - generic:
+                - generic:
+                  - generic: Friend requests
+                  - paragraph: Get notified when someone sends you a friend request
+                - switch [checked]
+              - generic:
+                - generic:
+                  - generic: Score beaten by friend
+                  - paragraph: Get notified when a friend beats your quiz score
+                - switch [checked]
+          - generic:
+            - generic:
+              - heading [level=3]: Change Password
+              - paragraph: Update your password to keep your account secure
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Current Password
+                  - generic:
+                    - img
+                    - textbox:
+                      - /placeholder: Enter current password
+                    - button:
+                      - img
+                - generic:
+                  - generic: New Password
+                  - generic:
+                    - img
+                    - textbox:
+                      - /placeholder: Enter new password
+                    - button:
+                      - img
+                - generic:
+                  - generic: Confirm New Password
+                  - generic:
+                    - img
+                    - textbox:
+                      - /placeholder: Confirm new password
+                    - button:
+                      - img
+                - generic:
+                  - button: Change password
+          - generic:
+            - generic:
+              - heading [level=3]: Connected Accounts
+              - paragraph: Manage your social login connections. Connect accounts to sign in faster.
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - paragraph: Google
+                      - paragraph: Not connected
+                  - generic:
+                    - button:
+                      - img
+                      - text: Connect
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - paragraph: Microsoft
+                      - paragraph: Not connected
+                  - generic:
+                    - button:
+                      - img
+                      - text: Connect
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - paragraph: Apple
+                      - paragraph: Not connected
+                  - generic:
+                    - button:
+                      - img
+                      - text: Connect
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - paragraph: Facebook
+                      - paragraph: Not connected
+                  - generic:
+                    - button:
+                      - img
+                      - text: Connect
+          - generic:
+            - generic:
+              - heading [level=3]: Subscription
+              - paragraph: Your current plan and billing information
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: Current Plan
+                  - generic:
+                    - generic:
+                      - img
+                      - text: No Plan
+                - button: Manage Subscription
+              - generic:
+                - paragraph: You don't have an active subscription. Upgrade to access all features.
+          - generic:
+            - generic:
+              - heading [level=3]: Danger Zone
+              - paragraph: Irreversible and destructive actions
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: Deactivate Account
+                  - paragraph: Temporarily disable your account. You can reactivate it by logging in again.
+                - button:
+                  - img
+                  - text: Deactivate Account
+              - generic:
+                - generic:
+                  - paragraph: Delete Account
+                  - paragraph: Permanently delete your account and all associated data. This action cannot be undone.
+                - button:
+                  - img
+                  - text: Delete Account
+  - dialog [ref=e1132]:
+    - generic [ref=e1133]:
+      - img [ref=e1136]
+      - navigation [ref=e1146]:
+        - button "Subjects" [active] [ref=e1147]:
+          - img [ref=e1148]
+          - generic [ref=e1150]: Subjects
+        - button "Dashboard" [ref=e1151]:
+          - img [ref=e1152]
+          - generic [ref=e1157]: Dashboard
+        - button "Friends" [ref=e1158]:
+          - img [ref=e1159]
+          - generic [ref=e1164]: Friends
+        - button "Settings" [ref=e1165]:
+          - img [ref=e1166]
+          - generic [ref=e1169]: Settings
+        - button "Logout" [ref=e1170]:
+          - img [ref=e1171]
+          - generic [ref=e1174]: Logout
+      - generic [ref=e1176]:
+        - generic [ref=e1178]: R
+        - generic [ref=e1179]:
+          - paragraph [ref=e1180]: Radivoje Pajic
+          - paragraph [ref=e1181]: pajicr@hotmail.com
+    - button "Close" [ref=e1182]:
+      - img [ref=e1183]
+      - generic [ref=e1186]: Close

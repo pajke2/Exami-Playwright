@@ -1,0 +1,49 @@
+- generic [ref=e6]:
+  - region "Notifications alt+T":
+    - list
+  - generic [ref=e1188]:
+    - generic [ref=e1189]:
+      - img [ref=e1191]
+      - paragraph [ref=e1201]: Sign in to your account
+    - generic [ref=e1202]:
+      - generic [ref=e1203]:
+        - heading "Sign in" [level=3] [ref=e1204]
+        - paragraph [ref=e1205]: Enter your username or email and password to access your account
+      - generic [ref=e1206]:
+        - generic [ref=e1207]:
+          - generic [ref=e1208]:
+            - generic [ref=e1209]: Username or Email
+            - generic [ref=e1210]:
+              - img [ref=e1211]
+              - textbox "Username or Email" [ref=e1214]:
+                - /placeholder: Enter Username or Email
+          - generic [ref=e1215]:
+            - generic [ref=e1216]:
+              - generic [ref=e1217]: Password
+              - link "Forgot password?" [ref=e1218] [cursor=pointer]:
+                - /url: /forgot-password
+            - generic [ref=e1219]:
+              - img [ref=e1220]
+              - textbox "Password" [ref=e1223]:
+                - /placeholder: Enter your password
+              - button [ref=e1224]:
+                - img
+          - button "Sign in" [ref=e1225]
+        - generic [ref=e1227]: Or continue with
+        - generic [ref=e1228]:
+          - button "Google" [ref=e1229]:
+            - img
+            - text: Google
+          - button "Microsoft" [ref=e1230]:
+            - img
+            - text: Microsoft
+          - button "Apple" [ref=e1231]:
+            - img
+            - text: Apple
+          - button "Facebook" [ref=e1232]:
+            - img
+            - text: Facebook
+      - paragraph [ref=e1234]:
+        - text: Don't have an account?
+        - link "Sign up" [ref=e1235] [cursor=pointer]:
+          - /url: /register

@@ -1,0 +1,29 @@
+{
+  "name": "playwright-exami",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:chromium:headed": "npx playwright test --project=chromium --headed",
+    "test:report": "npx playwright && npx playwright show-report",
+    "test:ui": "npx playwright test --ui",
+    "test:cucumber": "cucumber-js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.8.1",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "dotenv": "^17.4.2",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "tsconfig-paths": "^4.2.0"
+  }
+}

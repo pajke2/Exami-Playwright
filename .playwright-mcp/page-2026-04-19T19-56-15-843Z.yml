@@ -1,0 +1,127 @@
+- generic [ref=e6]:
+  - region "Notifications alt+T":
+    - list
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - button "Toggle menu" [ref=e10]:
+          - img
+          - generic [ref=e11]: Toggle menu
+        - img [ref=e14] [cursor=pointer]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - switch [ref=e32]
+            - img [ref=e33]
+          - button "2" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: "2"
+          - button "R" [ref=e38] [cursor=pointer]:
+            - generic [ref=e40]: R
+    - main [ref=e41]:
+      - generic [ref=e458]:
+        - generic [ref=e459]:
+          - heading "Subjects" [level=1] [ref=e460]
+          - paragraph [ref=e461]: Choose a subject to practice or take a quiz.
+        - generic [ref=e463]:
+          - img [ref=e464]
+          - textbox "Search subjects..." [ref=e467]
+        - generic [ref=e468]:
+          - generic [ref=e469] [cursor=pointer]:
+            - generic [ref=e471]:
+              - img [ref=e473]
+              - heading "Biology" [level=3] [ref=e482]
+              - button [ref=e483]:
+                - img [ref=e484]
+            - paragraph [ref=e487]: Cell biology, genetics, ecology, and evolution.
+          - generic [ref=e488] [cursor=pointer]:
+            - generic [ref=e490]:
+              - img [ref=e492]
+              - heading "Film" [level=3] [ref=e496]
+              - button [ref=e497]:
+                - img [ref=e498]
+            - paragraph [ref=e501]: Film theory, cinematography, directing, editing, and film history.
+          - generic [ref=e502] [cursor=pointer]:
+            - generic [ref=e504]:
+              - img [ref=e506]
+              - heading "Art" [level=3] [ref=e509]
+              - button [ref=e510]:
+                - img [ref=e511]
+            - paragraph [ref=e514]: Drawing, painting, visual design, art history, and creative expression.
+          - generic [ref=e515] [cursor=pointer]:
+            - generic [ref=e517]:
+              - img [ref=e519]
+              - heading "Chemistry" [level=3] [ref=e523]
+              - button [ref=e524]:
+                - img [ref=e525]
+            - paragraph [ref=e528]: Organic, inorganic, and physical chemistry.
+          - generic [ref=e529] [cursor=pointer]:
+            - generic [ref=e531]:
+              - img [ref=e533]
+              - heading "Economy" [level=3] [ref=e540]
+              - button [ref=e541]:
+                - img [ref=e542]
+            - paragraph [ref=e545]: Economic principles, finance, markets, and real-world business concepts
+          - generic [ref=e546] [cursor=pointer]:
+            - generic [ref=e548]:
+              - img [ref=e550]
+              - heading "History" [level=3] [ref=e554]
+              - button [ref=e555]:
+                - img [ref=e556]
+            - paragraph [ref=e559]: World history, civilizations, and modern events.
+          - generic [ref=e560] [cursor=pointer]:
+            - generic [ref=e562]:
+              - img [ref=e564]
+              - heading "IT" [level=3] [ref=e567]
+              - button [ref=e568]:
+                - img [ref=e569]
+            - paragraph [ref=e572]: Information Technologies
+          - generic [ref=e573] [cursor=pointer]:
+            - generic [ref=e575]:
+              - img [ref=e577]
+              - heading "Law" [level=3] [ref=e582]
+              - button [ref=e583]:
+                - img [ref=e584]
+            - paragraph [ref=e587]: Law
+          - generic [ref=e588] [cursor=pointer]:
+            - generic [ref=e590]:
+              - img [ref=e592]
+              - heading "M1.1_Anatomi & Fysiologi" [level=3] [ref=e596]
+              - button [ref=e597]:
+                - img [ref=e598]
+            - paragraph [ref=e601]: No description available.
+          - generic [ref=e602] [cursor=pointer]:
+            - generic [ref=e604]:
+              - img [ref=e606]
+              - heading "M1.2_Medicinska ämnen" [level=3] [ref=e610]
+              - button [ref=e611]:
+                - img [ref=e612]
+            - paragraph [ref=e615]: No description available.
+          - generic [ref=e616] [cursor=pointer]:
+            - generic [ref=e618]:
+              - img [ref=e620]
+              - heading "Mathematics" [level=3] [ref=e630]
+              - button [ref=e631]:
+                - img [ref=e632]
+            - paragraph [ref=e635]: Algebra, calculus, geometry, and more.
+          - generic [ref=e636] [cursor=pointer]:
+            - generic [ref=e638]:
+              - img [ref=e640]
+              - heading "Medicine" [level=3] [ref=e644]
+              - button [ref=e645]:
+                - img [ref=e646]
+            - paragraph [ref=e649]: Medicine
+          - generic [ref=e650] [cursor=pointer]:
+            - generic [ref=e652]:
+              - img [ref=e654]
+              - heading "Music" [level=3] [ref=e657]
+              - button [ref=e658]:
+                - img [ref=e659]
+            - paragraph [ref=e662]: Music theory, instruments, composition, rhythm, and listening skills.
+          - generic [ref=e663] [cursor=pointer]:
+            - generic [ref=e665]:
+              - img [ref=e667]
+              - heading "Physics" [level=3] [ref=e671]
+              - button [ref=e672]:
+                - img [ref=e673]
+            - paragraph [ref=e676]: Mechanics, thermodynamics, waves, and optics.

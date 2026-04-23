@@ -1,0 +1,65 @@
+- generic [ref=e6]:
+  - region "Notifications alt+T":
+    - list
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - button "Toggle menu" [ref=e10]:
+          - img
+          - generic [ref=e11]: Toggle menu
+        - img [ref=e14] [cursor=pointer]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - switch [ref=e32]
+            - img [ref=e33]
+          - button "2" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: "2"
+          - button "R" [ref=e38] [cursor=pointer]:
+            - generic [ref=e40]: R
+    - main [ref=e41]:
+      - generic [ref=e677]:
+        - button "Back to Subjects" [ref=e678]:
+          - img
+          - text: Back to Subjects
+        - generic [ref=e680]:
+          - img [ref=e682]
+          - generic [ref=e690]:
+            - heading "Biology" [level=1] [ref=e691]
+            - paragraph [ref=e692]: Cell biology, genetics, ecology, and evolution.
+            - paragraph [ref=e693]: Select a category to start practicing or take a quiz
+        - generic [ref=e695]:
+          - img
+          - textbox "Search categories..." [ref=e696]
+        - generic [ref=e697]:
+          - generic [ref=e698] [cursor=pointer]:
+            - generic [ref=e700]:
+              - heading "Cell Biology" [level=3] [ref=e701]
+              - button [ref=e702]:
+                - img [ref=e703]
+            - paragraph [ref=e706]: Cell biology is the study of cell structure, function, and behavior, focusing on the basic unit of life.
+          - generic [ref=e707] [cursor=pointer]:
+            - generic [ref=e709]:
+              - heading "Cell biology" [level=3] [ref=e710]
+              - button [ref=e711]:
+                - img [ref=e712]
+            - paragraph [ref=e715]: No description available.
+          - generic [ref=e716] [cursor=pointer]:
+            - generic [ref=e718]:
+              - heading "Marine Biology" [level=3] [ref=e719]
+              - button [ref=e720]:
+                - img [ref=e721]
+            - paragraph [ref=e724]: No description available.
+          - generic [ref=e725] [cursor=pointer]:
+            - generic [ref=e727]:
+              - heading "Mycology" [level=3] [ref=e728]
+              - button [ref=e729]:
+                - img [ref=e730]
+            - paragraph [ref=e733]: No description available.
+          - generic [ref=e734] [cursor=pointer]:
+            - generic [ref=e736]:
+              - heading "Paleontology" [level=3] [ref=e737]
+              - button [ref=e738]:
+                - img [ref=e739]
+            - paragraph [ref=e742]: No description available.

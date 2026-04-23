@@ -1,0 +1,61 @@
+- generic [ref=e6]:
+  - region "Notifications alt+T":
+    - list
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - button "Toggle menu" [ref=e10]:
+          - img
+          - generic [ref=e11]: Toggle menu
+        - img [ref=e14] [cursor=pointer]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - switch [ref=e32]
+            - img [ref=e33]
+          - button "2" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: "2"
+          - button "R" [ref=e38] [cursor=pointer]:
+            - generic [ref=e40]: R
+    - main [ref=e41]:
+      - generic [ref=e743]:
+        - button "Back to Categories" [ref=e744]:
+          - img
+          - text: Back to Categories
+        - generic [ref=e746]:
+          - img [ref=e748]
+          - generic [ref=e756]:
+            - generic [ref=e758]: Biology
+            - heading "Cell Biology" [level=1] [ref=e759]
+            - paragraph [ref=e760]: Cell biology is the study of cell structure, function, and behavior, focusing on the basic unit of life.
+        - generic [ref=e761]:
+          - tablist [ref=e763]:
+            - tab "Leaderboard" [ref=e764]:
+              - img
+              - generic [ref=e765]: Leaderboard
+            - tab "Practice" [ref=e766]:
+              - img
+              - generic [ref=e767]: Practice
+            - tab "Quiz" [active] [selected] [ref=e768]:
+              - img
+              - generic [ref=e769]: Quiz
+            - tab "Saved" [ref=e770]:
+              - img
+              - generic [ref=e771]: Saved
+            - tab "Wrong Answers" [ref=e772]:
+              - img
+              - generic [ref=e773]: Wrong Answers
+          - tabpanel "Quiz" [ref=e851]:
+            - generic [ref=e852]:
+              - generic [ref=e853]:
+                - heading "Quiz Mode" [level=3] [ref=e854]
+                - paragraph [ref=e855]: Test your knowledge with a timed quiz
+              - generic [ref=e856]:
+                - paragraph [ref=e857]: "In quiz mode, you will:"
+                - list [ref=e858]:
+                  - listitem [ref=e859]: Answer 15 random questions
+                  - listitem [ref=e860]: Complete the quiz within 20 minutes
+                  - listitem [ref=e861]: Receive a score at the end
+                  - listitem [ref=e862]: Compete on the leaderboard
+                - button "Start Quiz" [ref=e863]

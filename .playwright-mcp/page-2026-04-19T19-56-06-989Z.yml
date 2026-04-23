@@ -1,0 +1,139 @@
+- generic:
+  - generic:
+    - region "Notifications alt+T":
+      - list
+    - generic:
+      - banner:
+        - generic:
+          - button [expanded]:
+            - img
+            - generic: Toggle menu
+          - generic:
+            - generic:
+              - img
+          - generic:
+            - generic:
+              - img
+              - switch
+              - img
+            - generic:
+              - button:
+                - img
+                - generic: "2"
+            - button:
+              - generic:
+                - generic: R
+      - main:
+        - generic:
+          - generic:
+            - heading [level=1]: Welcome back, Radivoje Pajic
+            - paragraph: Here's an overview of your learning progress.
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: Total Practice Sessions
+              - generic:
+                - generic: "286"
+            - generic:
+              - generic:
+                - paragraph: Total Quizzes
+              - generic:
+                - generic: "87"
+            - generic:
+              - generic:
+                - paragraph:
+                  - text: Latest Score
+                  - paragraph: Film - Film History
+              - generic:
+                - generic: 13%
+            - generic:
+              - generic:
+                - paragraph: Current Streak
+              - generic:
+                - generic: 1 day
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=3]: Achievements
+                - paragraph: Badges you can earn through your learning progress.
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+            - generic:
+              - generic:
+                - heading [level=3]: Recent Activity
+                - paragraph: Your last 5 quiz attempts
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph: Film
+                      - paragraph: Apr 19, 09:26 PM
+                    - generic:
+                      - generic: 13%
+                  - generic:
+                    - generic:
+                      - paragraph: Film
+                      - paragraph: Apr 17, 03:24 PM
+                    - generic:
+                      - generic: 27%
+                  - generic:
+                    - generic:
+                      - paragraph: Film
+                      - paragraph: Apr 17, 01:45 PM
+                    - generic:
+                      - generic: 53%
+                  - generic:
+                    - generic:
+                      - paragraph: Biology
+                      - paragraph: Apr 17, 01:41 PM
+                    - generic:
+                      - generic: 0%
+                  - generic:
+                    - generic:
+                      - paragraph: Biology
+                      - paragraph: Apr 17, 01:39 PM
+                    - generic:
+                      - generic: 0%
+  - dialog [ref=e403]:
+    - generic [ref=e404]:
+      - img [ref=e407]
+      - navigation [ref=e417]:
+        - button "Subjects" [active] [ref=e418]:
+          - img [ref=e419]
+          - generic [ref=e421]: Subjects
+        - button "Dashboard" [ref=e422]:
+          - img [ref=e423]
+          - generic [ref=e428]: Dashboard
+        - button "Friends" [ref=e429]:
+          - img [ref=e430]
+          - generic [ref=e435]: Friends
+        - button "Settings" [ref=e436]:
+          - img [ref=e437]
+          - generic [ref=e440]: Settings
+        - button "Logout" [ref=e441]:
+          - img [ref=e442]
+          - generic [ref=e445]: Logout
+      - generic [ref=e447]:
+        - generic [ref=e449]: R
+        - generic [ref=e450]:
+          - paragraph [ref=e451]: Radivoje Pajic
+          - paragraph [ref=e452]: pajicr@hotmail.com
+    - button "Close" [ref=e453]:
+      - img [ref=e454]
+      - generic [ref=e457]: Close

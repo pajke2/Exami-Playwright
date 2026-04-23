@@ -1,0 +1,33 @@
+[  -59996ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ https://api.exami.space/api/notifications/unread-count:0
+[  -59983ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://exami.space/login:0
+[  -58308ms] [LOG] Successfully fetched user data: {id: 79, name: Radivoje Pajic, email: pajicr@hotmail.com, created_at: 2026-03-18T10:57:37.000000Z, updated_at: 2026-04-20T07:30:03.000000Z} @ https://exami.space/assets/index-B6vav_Ha.js:8
+[  -55331ms] [ERROR] Failed to load resource: the server responded with a status of 409 (Conflict) @ https://api.exami.space/api/practice/start:0
+[  -55096ms] [ERROR] AxiosError: Request failed with status code 409
+    at lg (https://exami.space/assets/index-B6vav_Ha.js:6:1087)
+    at XMLHttpRequest._ (https://exami.space/assets/index-B6vav_Ha.js:6:5927)
+    at Zr.request (https://exami.space/assets/index-B6vav_Ha.js:8:2094)
+    at async Proxy.f (https://exami.space/assets/index-B6vav_Ha.js:9:25351)
+    at async ue (https://exami.space/assets/PracticeView-yDITZwfV.js:1:6618)
+    at async https://exami.space/assets/PracticeView-yDITZwfV.js:1:6374 @ https://exami.space/assets/index-B6vav_Ha.js:1
+[   22362ms] [LOG] Successfully fetched user data: {id: 79, name: Radivoje Pajic, email: pajicr@hotmail.com, created_at: 2026-03-18T10:57:37.000000Z, updated_at: 2026-04-20T07:30:03.000000Z} @ https://exami.space/assets/index-B6vav_Ha.js:8
+[   81684ms] [LOG] Successfully fetched user data: {id: 79, name: Radivoje Pajic, email: pajicr@hotmail.com, created_at: 2026-03-18T10:57:37.000000Z, updated_at: 2026-04-20T07:30:03.000000Z} @ https://exami.space/assets/index-B6vav_Ha.js:8
+[   92723ms] [ERROR] Failed to load resource: the server responded with a status of 409 (Conflict) @ https://api.exami.space/api/practice/start:0
+[   92738ms] [ERROR] AxiosError: Request failed with status code 409
+    at lg (https://exami.space/assets/index-B6vav_Ha.js:6:1087)
+    at XMLHttpRequest._ (https://exami.space/assets/index-B6vav_Ha.js:6:5927)
+    at Zr.request (https://exami.space/assets/index-B6vav_Ha.js:8:2094)
+    at async Proxy.f (https://exami.space/assets/index-B6vav_Ha.js:9:25351)
+    at async ue (https://exami.space/assets/PracticeView-yDITZwfV.js:1:6618)
+    at async https://exami.space/assets/PracticeView-yDITZwfV.js:1:6374 @ https://exami.space/assets/index-B6vav_Ha.js:1
+[  108660ms] [LOG] Successfully fetched user data: {id: 79, name: Radivoje Pajic, email: pajicr@hotmail.com, created_at: 2026-03-18T10:57:37.000000Z, updated_at: 2026-04-20T07:30:03.000000Z} @ https://exami.space/assets/index-B6vav_Ha.js:8
+[  126245ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://via.placeholder.com/200x200.png/00ccdd?text=people+ut:0
+[  142078ms] [LOG] Successfully fetched user data: {id: 79, name: Radivoje Pajic, email: pajicr@hotmail.com, created_at: 2026-03-18T10:57:37.000000Z, updated_at: 2026-04-20T07:30:03.000000Z} @ https://exami.space/assets/index-B6vav_Ha.js:8
+[  154592ms] [ERROR] Failed to load resource: the server responded with a status of 409 (Conflict) @ https://api.exami.space/api/practice/start:0
+[  154612ms] [ERROR] AxiosError: Request failed with status code 409
+    at lg (https://exami.space/assets/index-B6vav_Ha.js:6:1087)
+    at XMLHttpRequest._ (https://exami.space/assets/index-B6vav_Ha.js:6:5927)
+    at Zr.request (https://exami.space/assets/index-B6vav_Ha.js:8:2094)
+    at async Proxy.f (https://exami.space/assets/index-B6vav_Ha.js:9:25351)
+    at async ue (https://exami.space/assets/PracticeView-yDITZwfV.js:1:6618)
+    at async https://exami.space/assets/PracticeView-yDITZwfV.js:1:6374 @ https://exami.space/assets/index-B6vav_Ha.js:1
+[  245951ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://exami.space/login?logout=1:0

@@ -1,0 +1,208 @@
+- generic [ref=e6]:
+  - region "Notifications alt+T":
+    - list
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - button "Toggle menu" [active] [ref=e10]:
+          - img
+          - generic [ref=e11]: Toggle menu
+        - img [ref=e14] [cursor=pointer]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - switch [ref=e32]
+            - img [ref=e33]
+          - button "2" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: "2"
+          - button "R" [ref=e38] [cursor=pointer]:
+            - generic [ref=e40]: R
+    - main [ref=e41]:
+      - generic [ref=e933]:
+        - generic [ref=e934]:
+          - heading "Profile" [level=1] [ref=e935]
+          - paragraph [ref=e936]: Manage your account settings
+        - generic [ref=e939]:
+          - generic [ref=e940]:
+            - generic [ref=e942]: RP
+            - button "Upload photo" [ref=e943] [cursor=pointer]:
+              - img [ref=e944]
+          - generic [ref=e947]:
+            - heading "Radivoje Pajic" [level=2] [ref=e948]
+            - paragraph [ref=e949]: pajicr@hotmail.com
+            - generic [ref=e950]:
+              - img [ref=e951]
+              - text: Member since March 18, 2026
+            - generic [ref=e954]:
+              - img
+              - text: No Plan
+        - generic [ref=e955]:
+          - generic [ref=e956]:
+            - heading "Edit Profile" [level=3] [ref=e957]
+            - paragraph [ref=e958]: Update your personal information
+          - generic [ref=e960]:
+            - generic [ref=e961]:
+              - generic [ref=e962]: Full Name
+              - generic [ref=e963]:
+                - img [ref=e964]
+                - textbox "Full Name" [ref=e967]:
+                  - /placeholder: Your name
+                  - text: Radivoje Pajic
+            - generic [ref=e968]:
+              - generic [ref=e969]: Email
+              - generic [ref=e970]:
+                - generic [ref=e971]:
+                  - img [ref=e972]
+                  - textbox [ref=e975]: pajicr@hotmail.com
+                - button "Change Email" [ref=e976]
+            - generic [ref=e977]:
+              - generic [ref=e978]: Username
+              - generic [ref=e979]:
+                - img [ref=e980]
+                - textbox "Username" [ref=e983]:
+                  - /placeholder: your_username
+                  - text: pajke12
+            - generic [ref=e984]:
+              - generic [ref=e985]: Bio
+              - textbox "Bio" [ref=e986]:
+                - /placeholder: Tell us a little about yourself...
+                - text: Test Pajke1
+            - generic [ref=e987]:
+              - generic [ref=e988]: Timezone
+              - combobox [ref=e989]:
+                - generic [ref=e990]:
+                  - img
+                  - generic [ref=e991]: Europe/Belgrade GMT+2
+                - img
+            - generic [ref=e992]:
+              - generic [ref=e993]: Language
+              - combobox [ref=e994]:
+                - generic [ref=e995]:
+                  - img
+                  - generic [ref=e996]: English English
+                - img
+            - button "Save changes" [ref=e998]
+        - generic [ref=e999]:
+          - generic [ref=e1000]:
+            - heading "Notifications" [level=3] [ref=e1001]
+            - paragraph [ref=e1002]: Choose which notifications you want to receive
+          - generic [ref=e1003]:
+            - generic [ref=e1004]:
+              - generic [ref=e1005]:
+                - generic [ref=e1006]: Inactivity reminders
+                - paragraph [ref=e1007]: Get reminded when you've been inactive for a while
+              - switch [checked] [ref=e1008]
+            - generic [ref=e1009]:
+              - generic [ref=e1010]:
+                - generic [ref=e1011]: Friend requests
+                - paragraph [ref=e1012]: Get notified when someone sends you a friend request
+              - switch [checked] [ref=e1013]
+            - generic [ref=e1014]:
+              - generic [ref=e1015]:
+                - generic [ref=e1016]: Score beaten by friend
+                - paragraph [ref=e1017]: Get notified when a friend beats your quiz score
+              - switch [checked] [ref=e1018]
+        - generic [ref=e1019]:
+          - generic [ref=e1020]:
+            - heading "Change Password" [level=3] [ref=e1021]
+            - paragraph [ref=e1022]: Update your password to keep your account secure
+          - generic [ref=e1024]:
+            - generic [ref=e1025]:
+              - generic [ref=e1026]: Current Password
+              - generic [ref=e1027]:
+                - img [ref=e1028]
+                - textbox "Current Password" [ref=e1031]:
+                  - /placeholder: Enter current password
+                - button [ref=e1032]:
+                  - img
+            - generic [ref=e1033]:
+              - generic [ref=e1034]: New Password
+              - generic [ref=e1035]:
+                - img [ref=e1036]
+                - textbox "New Password" [ref=e1039]:
+                  - /placeholder: Enter new password
+                - button [ref=e1040]:
+                  - img
+            - generic [ref=e1041]:
+              - generic [ref=e1042]: Confirm New Password
+              - generic [ref=e1043]:
+                - img [ref=e1044]
+                - textbox "Confirm New Password" [ref=e1047]:
+                  - /placeholder: Confirm new password
+                - button [ref=e1048]:
+                  - img
+            - button "Change password" [ref=e1050]
+        - generic [ref=e1051]:
+          - generic [ref=e1052]:
+            - heading "Connected Accounts" [level=3] [ref=e1053]
+            - paragraph [ref=e1054]: Manage your social login connections. Connect accounts to sign in faster.
+          - generic [ref=e1056]:
+            - generic [ref=e1057]:
+              - generic [ref=e1058]:
+                - img [ref=e1060]
+                - generic [ref=e1065]:
+                  - paragraph [ref=e1066]: Google
+                  - paragraph [ref=e1067]: Not connected
+              - button "Connect" [ref=e1069]:
+                - img
+                - text: Connect
+            - generic [ref=e1070]:
+              - generic [ref=e1071]:
+                - img [ref=e1073]
+                - generic [ref=e1078]:
+                  - paragraph [ref=e1079]: Microsoft
+                  - paragraph [ref=e1080]: Not connected
+              - button "Connect" [ref=e1082]:
+                - img
+                - text: Connect
+            - generic [ref=e1083]:
+              - generic [ref=e1084]:
+                - img [ref=e1086]
+                - generic [ref=e1088]:
+                  - paragraph [ref=e1089]: Apple
+                  - paragraph [ref=e1090]: Not connected
+              - button "Connect" [ref=e1092]:
+                - img
+                - text: Connect
+            - generic [ref=e1093]:
+              - generic [ref=e1094]:
+                - img [ref=e1096]
+                - generic [ref=e1098]:
+                  - paragraph [ref=e1099]: Facebook
+                  - paragraph [ref=e1100]: Not connected
+              - button "Connect" [ref=e1102]:
+                - img
+                - text: Connect
+        - generic [ref=e1103]:
+          - generic [ref=e1104]:
+            - heading "Subscription" [level=3] [ref=e1105]
+            - paragraph [ref=e1106]: Your current plan and billing information
+          - generic [ref=e1107]:
+            - generic [ref=e1108]:
+              - generic [ref=e1109]:
+                - paragraph [ref=e1110]: Current Plan
+                - generic [ref=e1112]:
+                  - img
+                  - text: No Plan
+              - button "Manage Subscription" [ref=e1113]
+            - paragraph [ref=e1115]: You don't have an active subscription. Upgrade to access all features.
+        - generic [ref=e1116]:
+          - generic [ref=e1117]:
+            - heading "Danger Zone" [level=3] [ref=e1118]
+            - paragraph [ref=e1119]: Irreversible and destructive actions
+          - generic [ref=e1120]:
+            - generic [ref=e1121]:
+              - generic [ref=e1122]:
+                - paragraph [ref=e1123]: Deactivate Account
+                - paragraph [ref=e1124]: Temporarily disable your account. You can reactivate it by logging in again.
+              - button "Deactivate Account" [ref=e1125]:
+                - img
+                - text: Deactivate Account
+            - generic [ref=e1126]:
+              - generic [ref=e1127]:
+                - paragraph [ref=e1128]: Delete Account
+                - paragraph [ref=e1129]: Permanently delete your account and all associated data. This action cannot be undone.
+              - button "Delete Account" [ref=e1130]:
+                - img
+                - text: Delete Account

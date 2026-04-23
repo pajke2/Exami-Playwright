@@ -1,0 +1,97 @@
+- generic:
+  - generic:
+    - region "Notifications alt+T":
+      - list
+    - generic:
+      - banner:
+        - generic:
+          - button [expanded]:
+            - img
+            - generic: Toggle menu
+          - generic:
+            - generic:
+              - img
+          - generic:
+            - generic:
+              - img
+              - switch
+              - img
+            - generic:
+              - button:
+                - img
+                - generic: "2"
+            - button:
+              - generic:
+                - generic: R
+      - main:
+        - generic:
+          - button:
+            - img
+            - text: Back to Categories
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - generic: Biology
+                - heading [level=1]: Cell Biology
+                - paragraph: Cell biology is the study of cell structure, function, and behavior, focusing on the basic unit of life.
+          - generic:
+            - generic:
+              - tablist:
+                - tab:
+                  - img
+                  - generic: Leaderboard
+                - tab [selected]:
+                  - img
+                  - generic: Practice
+                - tab:
+                  - img
+                  - generic: Quiz
+                - tab:
+                  - img
+                  - generic: Saved
+                - tab:
+                  - img
+                  - generic: Wrong Answers
+            - tabpanel:
+              - generic:
+                - generic:
+                  - heading [level=3]: Practice Mode
+                  - paragraph: Practice questions at your own pace with immediate feedback
+                - generic:
+                  - paragraph: "In practice mode, you can:"
+                  - list:
+                    - listitem: Answer questions at your own pace
+                    - listitem: Get immediate feedback on each answer
+                    - listitem: See detailed explanations for correct answers
+                    - listitem: Track your progress as you go
+                  - button: Start Practice Session
+  - dialog [ref=e878]:
+    - generic [ref=e879]:
+      - img [ref=e882]
+      - navigation [ref=e892]:
+        - button "Subjects" [active] [ref=e893]:
+          - img [ref=e894]
+          - generic [ref=e896]: Subjects
+        - button "Dashboard" [ref=e897]:
+          - img [ref=e898]
+          - generic [ref=e903]: Dashboard
+        - button "Friends" [ref=e904]:
+          - img [ref=e905]
+          - generic [ref=e910]: Friends
+        - button "Settings" [ref=e911]:
+          - img [ref=e912]
+          - generic [ref=e915]: Settings
+        - button "Logout" [ref=e916]:
+          - img [ref=e917]
+          - generic [ref=e920]: Logout
+      - generic [ref=e922]:
+        - generic [ref=e924]: R
+        - generic [ref=e925]:
+          - paragraph [ref=e926]: Radivoje Pajic
+          - paragraph [ref=e927]: pajicr@hotmail.com
+    - button "Close" [ref=e928]:
+      - img [ref=e929]
+      - generic [ref=e932]: Close

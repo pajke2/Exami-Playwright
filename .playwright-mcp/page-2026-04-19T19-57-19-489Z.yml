@@ -1,0 +1,66 @@
+- generic [ref=e6]:
+  - region "Notifications alt+T":
+    - list
+  - generic [ref=e1237]:
+    - generic [ref=e1238]:
+      - img [ref=e1240]
+      - paragraph [ref=e1250]: Create your account
+    - generic [ref=e1251]:
+      - generic [ref=e1252]:
+        - heading "Sign up" [level=3] [ref=e1253]
+        - paragraph [ref=e1254]: Enter your details to create a new account
+      - generic [ref=e1255]:
+        - generic [ref=e1256]:
+          - generic [ref=e1257]:
+            - generic [ref=e1258]: Full Name
+            - generic [ref=e1259]:
+              - img [ref=e1260]
+              - textbox "Full Name" [ref=e1263]:
+                - /placeholder: Enter Full Name
+          - generic [ref=e1264]:
+            - generic [ref=e1265]: Username
+            - generic [ref=e1266]:
+              - img [ref=e1267]
+              - textbox "Username" [ref=e1270]:
+                - /placeholder: Enter Username
+          - generic [ref=e1271]:
+            - generic [ref=e1272]: Email
+            - generic [ref=e1273]:
+              - img [ref=e1274]
+              - textbox "Email" [ref=e1277]:
+                - /placeholder: Enter Email
+          - generic [ref=e1278]:
+            - generic [ref=e1279]: Password
+            - generic [ref=e1280]:
+              - img [ref=e1281]
+              - textbox "Password" [ref=e1284]:
+                - /placeholder: Create a password
+              - button [ref=e1285]:
+                - img
+          - generic [ref=e1286]:
+            - generic [ref=e1287]: Confirm Password
+            - generic [ref=e1288]:
+              - img [ref=e1289]
+              - textbox "Confirm Password" [ref=e1292]:
+                - /placeholder: Confirm your password
+              - button [ref=e1293]:
+                - img
+          - button "Create account" [ref=e1294]
+        - generic [ref=e1296]: Or continue with
+        - generic [ref=e1297]:
+          - button "Google" [ref=e1298]:
+            - img
+            - text: Google
+          - button "Microsoft" [ref=e1299]:
+            - img
+            - text: Microsoft
+          - button "Apple" [ref=e1300]:
+            - img
+            - text: Apple
+          - button "Facebook" [ref=e1301]:
+            - img
+            - text: Facebook
+      - paragraph [ref=e1303]:
+        - text: Already have an account?
+        - link "Sign in" [ref=e1304] [cursor=pointer]:
+          - /url: /login

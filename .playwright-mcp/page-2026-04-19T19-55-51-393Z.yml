@@ -1,0 +1,217 @@
+- generic:
+  - generic:
+    - region "Notifications alt+T":
+      - list
+    - generic:
+      - banner:
+        - generic:
+          - button [expanded]:
+            - img
+            - generic: Toggle menu
+          - generic:
+            - generic:
+              - img
+          - generic:
+            - generic:
+              - img
+              - switch
+              - img
+            - generic:
+              - button:
+                - img
+                - generic: "2"
+            - button:
+              - generic:
+                - generic: R
+      - main:
+        - generic:
+          - generic:
+            - heading [level=1]: Subjects
+            - paragraph: Choose a subject to practice or take a quiz.
+          - generic:
+            - generic:
+              - img
+              - textbox:
+                - /placeholder: Search subjects...
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: Biology
+                  - button:
+                    - img
+              - generic:
+                - paragraph: Cell biology, genetics, ecology, and evolution.
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: Film
+                  - button:
+                    - img
+              - generic:
+                - paragraph: Film theory, cinematography, directing, editing, and film history.
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: Art
+                  - button:
+                    - img
+              - generic:
+                - paragraph: Drawing, painting, visual design, art history, and creative expression.
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: Chemistry
+                  - button:
+                    - img
+              - generic:
+                - paragraph: Organic, inorganic, and physical chemistry.
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: Economy
+                  - button:
+                    - img
+              - generic:
+                - paragraph: Economic principles, finance, markets, and real-world business concepts
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: History
+                  - button:
+                    - img
+              - generic:
+                - paragraph: World history, civilizations, and modern events.
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: IT
+                  - button:
+                    - img
+              - generic:
+                - paragraph: Information Technologies
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: Law
+                  - button:
+                    - img
+              - generic:
+                - paragraph: Law
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: M1.1_Anatomi & Fysiologi
+                  - button:
+                    - img
+              - generic:
+                - paragraph: No description available.
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: M1.2_Medicinska ämnen
+                  - button:
+                    - img
+              - generic:
+                - paragraph: No description available.
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: Mathematics
+                  - button:
+                    - img
+              - generic:
+                - paragraph: Algebra, calculus, geometry, and more.
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: Medicine
+                  - button:
+                    - img
+              - generic:
+                - paragraph: Medicine
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: Music
+                  - button:
+                    - img
+              - generic:
+                - paragraph: Music theory, instruments, composition, rhythm, and listening skills.
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=3]: Physics
+                  - button:
+                    - img
+              - generic:
+                - paragraph: Mechanics, thermodynamics, waves, and optics.
+  - dialog [ref=e262]:
+    - generic [ref=e263]:
+      - img [ref=e266]
+      - navigation [ref=e276]:
+        - button "Subjects" [active] [ref=e277]:
+          - img [ref=e278]
+          - generic [ref=e280]: Subjects
+        - button "Dashboard" [ref=e281]:
+          - img [ref=e282]
+          - generic [ref=e287]: Dashboard
+        - button "Friends" [ref=e288]:
+          - img [ref=e289]
+          - generic [ref=e294]: Friends
+        - button "Settings" [ref=e295]:
+          - img [ref=e296]
+          - generic [ref=e299]: Settings
+        - button "Logout" [ref=e300]:
+          - img [ref=e301]
+          - generic [ref=e304]: Logout
+      - generic [ref=e306]:
+        - generic [ref=e308]: R
+        - generic [ref=e309]:
+          - paragraph [ref=e310]: Radivoje Pajic
+          - paragraph [ref=e311]: pajicr@hotmail.com
+    - button "Close" [ref=e312]:
+      - img [ref=e313]
+      - generic [ref=e316]: Close

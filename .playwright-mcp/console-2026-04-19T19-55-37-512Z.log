@@ -1,0 +1,9 @@
+[     489ms] [LOG] Successfully fetched user data: {id: 79, name: Radivoje Pajic, email: pajicr@hotmail.com, created_at: 2026-03-18T10:57:37.000000Z, updated_at: 2026-04-19T19:27:04.000000Z} @ https://exami.space/assets/index-B6vav_Ha.js:8
+[   60759ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://exami.space/profile:0
+[   60759ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://exami.space/profile:0
+[   60759ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://exami.space/profile:0
+[   60921ms] [LOG] Successfully fetched user data: {id: 79, name: Radivoje Pajic, email: pajicr@hotmail.com, created_at: 2026-03-18T10:57:37.000000Z, updated_at: 2026-04-19T19:27:04.000000Z} @ https://exami.space/assets/index-B6vav_Ha.js:8
+[   94572ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://exami.space/login?logout=1:0
+[   94738ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://exami.space/login:0
+[   99973ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://exami.space/register:0
+[   99973ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://exami.space/register:0

@@ -1,0 +1,117 @@
+- generic [ref=e6]:
+  - region "Notifications alt+T":
+    - list
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - button "Toggle menu" [ref=e10]:
+          - img
+          - generic [ref=e11]: Toggle menu
+        - img [ref=e14] [cursor=pointer]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - switch [ref=e32]
+            - img [ref=e33]
+          - button "2" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: "2"
+          - button "R" [ref=e38] [cursor=pointer]:
+            - generic [ref=e40]: R
+    - main [ref=e41]:
+      - generic [ref=e743]:
+        - button "Back to Categories" [ref=e744]:
+          - img
+          - text: Back to Categories
+        - generic [ref=e746]:
+          - img [ref=e748]
+          - generic [ref=e756]:
+            - generic [ref=e758]: Biology
+            - heading "Cell Biology" [level=1] [ref=e759]
+            - paragraph [ref=e760]: Cell biology is the study of cell structure, function, and behavior, focusing on the basic unit of life.
+        - generic [ref=e761]:
+          - tablist [ref=e763]:
+            - tab "Leaderboard" [selected] [ref=e764]:
+              - img
+              - generic [ref=e765]: Leaderboard
+            - tab "Practice" [ref=e766]:
+              - img
+              - generic [ref=e767]: Practice
+            - tab "Quiz" [ref=e768]:
+              - img
+              - generic [ref=e769]: Quiz
+            - tab "Saved" [ref=e770]:
+              - img
+              - generic [ref=e771]: Saved
+            - tab "Wrong Answers" [ref=e772]:
+              - img
+              - generic [ref=e773]: Wrong Answers
+          - tabpanel "Leaderboard" [ref=e774]:
+            - generic [ref=e775]:
+              - tablist [ref=e776]:
+                - tab "Global" [selected] [ref=e777]:
+                  - img
+                  - text: Global
+                - tab "Friends" [ref=e778]:
+                  - img
+                  - text: Friends
+              - tabpanel "Global" [ref=e779]:
+                - generic [ref=e780]:
+                  - generic [ref=e781]:
+                    - heading "Top Performers" [level=3] [ref=e782]
+                    - paragraph [ref=e783]: See how you rank against other students in Biology
+                  - table [ref=e787]:
+                    - rowgroup [ref=e793]:
+                      - row "Rank User Score Time" [ref=e794]:
+                        - columnheader "Rank" [ref=e795]
+                        - columnheader "User" [ref=e796]
+                        - columnheader "Score" [ref=e797]
+                        - columnheader "Time" [ref=e798]
+                    - rowgroup [ref=e799]:
+                      - row "1 Marko Vasic 60% 808" [ref=e800]:
+                        - cell "1" [ref=e801]:
+                          - generic [ref=e802]: "1"
+                        - cell "Marko Vasic" [ref=e803]:
+                          - generic [ref=e804]:
+                            - img [ref=e806]
+                            - generic [ref=e807]: Marko Vasic
+                        - cell "60%" [ref=e808]
+                        - cell "808" [ref=e809]
+                      - row "2 R Radivoje Pajic You 53% 41" [ref=e810]:
+                        - cell "2" [ref=e811]:
+                          - generic [ref=e812]: "2"
+                        - cell "R Radivoje Pajic You" [ref=e813]:
+                          - generic [ref=e814]:
+                            - generic [ref=e816]: R
+                            - generic [ref=e817]:
+                              - text: Radivoje Pajic
+                              - generic [ref=e818]: You
+                        - cell "53%" [ref=e819]
+                        - cell "41" [ref=e820]
+                      - row "3 Admin 47% 41" [ref=e821]:
+                        - cell "3" [ref=e822]:
+                          - generic [ref=e823]: "3"
+                        - cell "Admin" [ref=e824]:
+                          - generic [ref=e825]:
+                            - img [ref=e827]
+                            - generic [ref=e828]: Admin
+                        - cell "47%" [ref=e829]
+                        - cell "41" [ref=e830]
+                      - row "4 Maria Garcia 40% 45" [ref=e831]:
+                        - cell "4" [ref=e832]:
+                          - generic [ref=e833]: "4"
+                        - cell "Maria Garcia" [ref=e834]:
+                          - generic [ref=e835]:
+                            - img [ref=e837]
+                            - generic [ref=e838]: Maria Garcia
+                        - cell "40%" [ref=e839]
+                        - cell "45" [ref=e840]
+                      - row "5 James Wilson 9% 1125" [ref=e841]:
+                        - cell "5" [ref=e842]:
+                          - generic [ref=e843]: "5"
+                        - cell "James Wilson" [ref=e844]:
+                          - generic [ref=e845]:
+                            - img [ref=e847]
+                            - generic [ref=e848]: James Wilson
+                        - cell "9%" [ref=e849]
+                        - cell "1125" [ref=e850]

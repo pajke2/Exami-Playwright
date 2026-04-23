@@ -1,0 +1,61 @@
+- generic [ref=e6]:
+  - region "Notifications alt+T":
+    - list
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - button "Toggle menu" [ref=e10]:
+          - img
+          - generic [ref=e11]: Toggle menu
+        - img [ref=e14] [cursor=pointer]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - switch [ref=e32]
+            - img [ref=e33]
+          - button "2" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: "2"
+          - button "R" [ref=e38] [cursor=pointer]:
+            - generic [ref=e40]: R
+    - main [ref=e41]:
+      - generic [ref=e743]:
+        - button "Back to Categories" [ref=e744]:
+          - img
+          - text: Back to Categories
+        - generic [ref=e746]:
+          - img [ref=e748]
+          - generic [ref=e756]:
+            - generic [ref=e758]: Biology
+            - heading "Cell Biology" [level=1] [ref=e759]
+            - paragraph [ref=e760]: Cell biology is the study of cell structure, function, and behavior, focusing on the basic unit of life.
+        - generic [ref=e761]:
+          - tablist [ref=e763]:
+            - tab "Leaderboard" [ref=e764]:
+              - img
+              - generic [ref=e765]: Leaderboard
+            - tab "Practice" [active] [selected] [ref=e766]:
+              - img
+              - generic [ref=e767]: Practice
+            - tab "Quiz" [ref=e768]:
+              - img
+              - generic [ref=e769]: Quiz
+            - tab "Saved" [ref=e770]:
+              - img
+              - generic [ref=e771]: Saved
+            - tab "Wrong Answers" [ref=e772]:
+              - img
+              - generic [ref=e773]: Wrong Answers
+          - tabpanel "Practice" [ref=e864]:
+            - generic [ref=e865]:
+              - generic [ref=e866]:
+                - heading "Practice Mode" [level=3] [ref=e867]
+                - paragraph [ref=e868]: Practice questions at your own pace with immediate feedback
+              - generic [ref=e869]:
+                - paragraph [ref=e870]: "In practice mode, you can:"
+                - list [ref=e871]:
+                  - listitem [ref=e872]: Answer questions at your own pace
+                  - listitem [ref=e873]: Get immediate feedback on each answer
+                  - listitem [ref=e874]: See detailed explanations for correct answers
+                  - listitem [ref=e875]: Track your progress as you go
+                - button "Start Practice Session" [ref=e876] [cursor=pointer]

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "ignoreDeprecations": "6.0",
+        "baseUrl": ".",
+        "module": "CommonJS",
+        "types": ["node"],
+        "paths": {
+            "@pages/*": ["lib/pages/*"],
+            "@components/*": ["lib/components/*"],
+            "@fixtures/*": ["lib/fixtures/*"],
+            "@helpers/*": ["lib/helpers/*"]
+        }
+    }
+}
