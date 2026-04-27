@@ -13,12 +13,12 @@ import mainFlowData from '../data/mainFlowData.json';
 test.describe.serial("Exami e2e tests", () => {
     
     test("Test Practice Mode", {tag:"@PracticeMode"}, async ({page}) => {
-        const subject = mainFlowData[0].subject;
-        const categoryName = mainFlowData[0].category;
-        const numberOfQuestions = mainFlowData[0].questionNumbers;
+        const subject = mainFlowData[2].subject;
+        const categoryName = mainFlowData[2].category;
+        const numberOfQuestions = mainFlowData[2].questionNumbers;
         
         const homePage = new HomePage(page);
-        const subjectPage = new SubjectPage(page, categoryName);
+        const subjectPage = new SubjectPage(page);
         const categoryPage = new CategoryPage(page);
         const practicePage = new PracticePage(page);
 
@@ -27,7 +27,7 @@ test.describe.serial("Exami e2e tests", () => {
         await homePage.chooseSubject(subject);
         await expect(subjectPage.subjectHeading).toHaveText(subject);
 
-        await subjectPage.chooseCategory();
+        await subjectPage.chooseCategory(categoryName);
         await expect(categoryPage.categoryHeading).toHaveText(categoryName);
 
         await categoryPage.startPractice();
@@ -45,7 +45,7 @@ test.describe.serial("Exami e2e tests", () => {
         const numberOfQuestions = mainFlowData[1].questionNumbers;
         
         const homePage = new HomePage(page);
-        const subjectPage = new SubjectPage(page, categoryName);
+        const subjectPage = new SubjectPage(page);
         const categoryPage = new CategoryPage(page);
         const practicePage = new PracticePage(page);
         const wrongAnswersPage = new WrongAnswersPage(page);
@@ -55,7 +55,7 @@ test.describe.serial("Exami e2e tests", () => {
         await homePage.chooseSubject(subject);
         await expect(subjectPage.subjectHeading).toHaveText(subject);
 
-        await subjectPage.chooseCategory();
+        await subjectPage.chooseCategory(categoryName);
         await expect(categoryPage.categoryHeading).toHaveText(categoryName);
 
         await categoryPage.goToWrongAnswers();
@@ -99,11 +99,11 @@ test.describe.serial("Exami e2e tests", () => {
     })
 
     test("Test Quiz Mode", {tag:"@QuizMode"}, async ({page}) => {
-        const subject = mainFlowData[0].subject;
-        const categoryName = mainFlowData[0].category;
+        const subject = mainFlowData[2].subject;
+        const categoryName = mainFlowData[2].category;
 
         const homePage = new HomePage(page);
-        const subjectPage = new SubjectPage(page, categoryName);
+        const subjectPage = new SubjectPage(page);
         const categoryPage = new CategoryPage(page);
         const quizPage = new QuizPage(page);
 
@@ -111,7 +111,7 @@ test.describe.serial("Exami e2e tests", () => {
         await homePage.chooseSubject(subject);
         await expect(subjectPage.subjectHeading).toHaveText(subject);
 
-        await subjectPage.chooseCategory();
+        await subjectPage.chooseCategory(categoryName);
         await expect(categoryPage.categoryHeading).toHaveText(categoryName);
 
 

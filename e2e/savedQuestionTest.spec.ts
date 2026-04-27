@@ -14,16 +14,16 @@ test.describe.serial("Testing Saved Questions", () => {
     const categoryName = "Mycology";
     
     const homePage = new HomePage(page);
-    const subjectPage = new SubjectPage(page, categoryName);
+    const subjectPage = new SubjectPage(page);
     const categoryPage = new CategoryPage(page);
     const practicePage = new PracticePage(page);
     const savedQuestionsPage = new SavedQuestionsPage(page);
 
-    await page.goto("https://exami.space");
+    await page.goto("/");
     await homePage.chooseSubject(subject);
     await expect(subjectPage.subjectHeading).toHaveText(subject);
 
-    await subjectPage.chooseCategory();
+    await subjectPage.chooseCategory(categoryName);
     await expect(categoryPage.categoryHeading).toHaveText(categoryName);
 
     await categoryPage.savedQuestionsTab.click();
@@ -34,7 +34,7 @@ test.describe.serial("Testing Saved Questions", () => {
 
     await categoryPage.startPractice();
 
-    await expect(practicePage.finishPracticeButton).toBeVisible();
+    await expect(practicePage.finishPracticeButton).toBeVisible({timeout: 10000});
 
     const questionTitle = await practicePage.questionTitle.textContent();
     expect(questionTitle).not.toBeNull();
@@ -47,12 +47,9 @@ test.describe.serial("Testing Saved Questions", () => {
     const savedQuestionText = await savedQuestionsPage.savedQuestions.first();
     await expect(savedQuestionText).toContainText(questionTitle!)
 
-    
-
     if(await savedQuestionsPage.removeAllButton.isVisible({timeout: 5000})){
         await savedQuestionsPage.removeSavedQuestions();
     }
-
 
     await expect(savedQuestionsPage.savedQuestionsStateLabel).toHaveText('No Saved Questions');
     

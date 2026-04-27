@@ -1,4 +1,5 @@
 [
     {"subject":"Film","category":"Film History", "questionNumbers":10},
-    {"subject":"Biology","category":"Mycology", "questionNumbers":12}
+    {"subject":"Biology","category":"Mycology", "questionNumbers":12},
+    {"subject":"Chemistry","category":"Analytical Chemistry", "questionNumbers":12}
 ]

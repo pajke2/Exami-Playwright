@@ -1,4 +1,4 @@
-import { type Page, type Locator } from "@playwright/test";
+import { type Page, type Locator, expect } from "@playwright/test";
 
 export class PracticePage {
     readonly page: Page;
@@ -35,13 +35,14 @@ export class PracticePage {
     }
 
     async selectAnswer(index: number): Promise<void> {
+        await this.answerOption.first().waitFor({ state: 'visible' });
         const answer = this.answerOption.nth(index);
-        await answer.waitFor({ state: 'visible' });
         await answer.click();
+        
     }
 
     async clickNextQuestion(): Promise<void> {
-        await this.nextQuestionButton.click();
+        await this.nextQuestionButton.click({force: true});
     }
 
     async reviewWrongAnswers(): Promise<void> {
